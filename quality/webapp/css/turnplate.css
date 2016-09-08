@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*turnplate banner*/
+.m_banner1{ background:#fff;height:500px; position:relative;}
+.m_banner1 .banner{height:500px;width:100%; position:absolute;top:0;left:0; background-position:center top;}
+.banner_ctrl1{ }
+.banner_ctrl1 a{ width:30px;height:100px; background:url(../images/banner_ctrl.png) no-repeat; position:absolute; opacity:.1;filter: alpha(opacity=10);
+-moz-opacity:0.1;}
+.banner_ctrl1 a.prev{left:60px;position:absolute;z-index:2;top:40%;}
+.banner_ctrl1 a.next{top:40%;-moz-opacity:0.1;right:60px; background-position:-30px 0;position:absolute;z-index:2;}
+.m_banner1 .banner .main_c{ position:relative;z-index:10;height:388px;}
+
+.turntable-bg {
+  width: 650px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  background: url("../images/turntable-bg.png");
+}
+.turntable-bg .mask {
+  width: 454px;
+  height: 451px;
+  position: absolute;
+  left: 116px;
+  top: 60px;
+  /*z-index:9;*/
+}
+.turntable-bg .pointer {
+  width: 174px;
+  height: 228px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -67px;
+  margin-top: -144px;
+  z-index: 8;
+}
+.turntable-bg .rotate {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 116px;
+  top: 60px;
+}
+.zhuanpan{ background:url(../images/zj_bg.jpg) center no-repeat;height:1140px;padding-top:220px;border-top:3px solid #CCC;}
+.zhuanpan_con{width:900px; margin:0px auto;height:650px;}
+.zhuanpan_con_left{width:250px; float:left;margin-top:40px;}
+.zhuanpan_con_right{width:650px; float:left;}
+.bcon_zp{ width:240px; border:1px solid #FF0;}
+.bcon_zp h1{ border-bottom:1px solid #FF0; padding:0;margin:0px; background:#ff5d25; color:#FF0;}
+.bcon_zp h1 b{ font:bold 14px/40px '宋体'; border-top:4px solid #FF0; padding:0 8px; margin-top:-1px; display:inline-block;}
+
+.list_lh_zp{ height:480px; overflow:hidden; background:#ff5d25; }
+.list_lh_zp li{ padding:10px;}
+.list_lh_zp li.lieven{ background:#fd6b39;}
+.list_lh_zp li p{ height:24px; line-height:24px;}
+.list_lh_zp li p a{ float:left;}
+.list_lh_zp li p em{ width:80px; font:normal 12px/24px Arial; color:#FF0; float:right; display:inline-block;}
+.list_lh_zp li p span{ color:#fff; float:right;}
+.list_lh_zp li p a.btn_lh{ background:#28BD19; height:17px; line-height:17px; color:#fff; padding:0 5px; margin-top:4px; display:inline-block; float:right;}
+.btn_lh:hover{ color:#fff; text-decoration:none;}
+
+.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center;}
+
+.zhuanpan_gg{width:800px;margin:0 auto; border-radius:10px;height:200px; background:#ffff00;padding:10px 30px;}
+.zhuanpan_gg b{height:24px; line-height:24px; font-size:16px;}
+.zhuanpan_gg p{height:24px; line-height:24px;}

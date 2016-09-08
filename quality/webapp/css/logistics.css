@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 物流跟踪 */
+.topNav-width-order {
+	width:1200px;
+	margin:0 auto;
+	 position:relative;
+}
+.order_con{width:990px;margin:0 auto;}
+.orderbar_con{width:1200px;margin:0 auto;}
+.wuliu_con{width:990px; margin:20px auto;}
+.wuliu_con p b{font-size:16px; color:#333;}
+.wuliu_zt{border:1px solid #CCC; height:70px;margin:20px auto;}
+.wuliu_con .wuliu_zt_lc{ text-align:center;padding-top:30px;width:800px;margin:0px 95px;}
+.wuliu_con .lc{width:800px;margin:0px 95px;height:40px;}
+.wuliu_con .lc li{ float:left;width:160px; text-align:center;height:36px; line-height:36px;}
+.wuliu_zt p{height:35px; line-height:35px;padding:0 20px;}
+.wuliu_con  .wuliu_zt p b{font-size:14px; color:#333;}
+.wuliu_con  .wuliu_zt p a{color:#900; text-decoration:underline;}
+.wuliu_zt_rig{ float:right;}
+.wuliu_con  .wuliu_zt .wuliu_zt_rig a{padding:5px 10px; background:#ac0b0b;margin:0 10px;color:#FFF; border-radius:8px;text-decoration:none;}
+.wuliu_order{border:1px solid #CCC;margin-bottom:30px;}
+.wuliu_order .wuliu_title{height:35px; line-height:35px; background:#e1e1e1;padding:0 20px;}
+.wuliu_order .wuliu_order_con{border-top:1px solid #CCC;padding:10px 20px;}
+.wuliu_order .wuliu_order_con  .sp_title{ font-size:14px; color:#333; font-weight:600;}
+.wuliu_order .wuliu_order_con  span{ display:block;height:25px; line-height:25px;}
+.sp_right{}
+.sp_right p{ display:block;height:25px; line-height:25px;}
+.sp_right p span{float:right;padding:0 10px;}
+
+.for-wuliu{width:820px;margin:30px auto; height:50px;padding:22px 0 0 0; position:relative;}
+.wulist{float:left;width:20%; height:7px; background:#ccc;}
+.wutextbox{ position:absolute;width:100%;left:0;top:10px;}
+.wutextbox .wutext{float:left;width:20%; text-align:center;}
+.wutextbox .wutext em{ display:inline-block;width:30px; height:30px;-moz-border-radius: 30px; -webkit-border-radius: 30px;border-radius:30px; background:#ccc; text-align:center; font-size:14px; line-height:30px; font-style:normal; font-weight:bold;color:#fff;}
+.wutextbox .wutext strong{ display:inline-block;height:26px; line-height:26px; font-weight:400;}
+.wulist.for-cur{ background:#77b852;}
+.wutextbox .for-cur em{ background:#77b852;}
+.wutextbox .for-cur strong{color:#77b852;font-family:'微软雅黑'; font-size:14px}
+.wuliu_gz{border-top:1px solid #ccc; border-bottom:1px solid #ccc;padding:20px;}
+.package-status .status-list li{min-height:30px;}
+.package-status .status-list .date{width:78px; display:inline-block;}
+.package-status .status-list .week{width:30px; display:inline-block;}
+.package-status .status-list .time{width:48px; display:inline-block;margin-left:10px;margin-right:20px;}
+.package-status .status-list .hidden{visibility:hidden;}
+.wuliu_title span{margin-right:20px;}
+.wuliu_title span a{ color:#00F;}
+.wuliu_order_table  table{width:100%; border-collapse:collapse; border-spacing:0px;margin-top:10px; margin-bottom:10px;}
+.wuliu_order_table table tr td{border:1px solid #CCC; text-align:center;}
+.wuliu_order_table table tr td img{width:70px;height:55px;}
+.wuliu_order_table table tr td span{margin:5px;}
+.wuliu_order_table table tr td span a{ text-decoration:underline;}
+.wuliu_order_table table tr td span a:hover{ color:#900;}
+.wuliu_order_table table tr .td1{height:30px; line-height:30px;}
+.wuliu_order_table table tr .td2{height:80px; line-height:80px;}
+
+/*下部推荐商品*/
+.thBody{width:980px;margin:0 auto;height:200px;} 
+.thLeft{float:left;}
+.wrapperBox{width:310px;overflow:hidden;zoom:1;position:relative;}
+.wrapper{width:310px;height:170px;font-family:Tahoma, Geneva, sans-serif;position:relative;}
+.up{padding-top:10px;height:25px;margin-bottom:20px;}
+.up span{width:auto;height:auto;padding:0;}
+.up ul li {width:6px;height:6px;background:url(../images/img012.jpg) no-repeat -34px -5px;margin-right:2px;text-indent:-99999px;float:left;}
+.up ul li.current{color:#069;width:6px;height:6px;background:url(../images/img012.jpg) no-repeat -21px -5px;margin-right:2px;}
+.buttom{height:20px;}
+ul.yb_box_topbs{float:left;margin:5px 6px 5px 8px;}
+.up span.buttom_left,.up span.buttom_right {cursor:pointer;width:15px;float:left;height:15px;background:url(../images/img012.jpg) no-repeat;}
+.up span.buttom_right {background-position:right 0;}
+.downContent{position:relative;width:100%;}
+.downContent ul{float:left;}
+.downContent li{width:145px;margin-right:20px;float:left;}
+.downContent li p{width:145px;text-align:center;line-height:25px;}

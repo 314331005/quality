@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*城市切换*/
+.city_con{width:990px; margin:20px auto;}
+.city_pic{ background:url(../images/city.jpg) center no-repeat #003985;height:400px;}
+.city_con p{ font-size:16px;height:36px; line-height:36px;}
+.city_con p a:hover{ color:#C00;}
+.city_con p b{ font-size:22px;margin-left:10px;}
+.city_con .rmcity{width:990px;font-size:14px; color:#C00; font-weight:bold;}
+.city_con .rmcity a{padding:0 15px;font-weight:400;}
+.city_con .city_xx{margin:15px auto; border-top:1px solid #e8e8e8;height:1px; line-height:1px;}
+
+/* cityList */
+.cityList{display:block;width:990px;border:1px solid #999;background:white;overflow:hidden;font-family:arial,"宋体";overflow:hidden;margin:20px auto;}
+.cityList .title{background-color:#F4F4F4;width:100%;padding-top:10px;padding-left:16px;overflow:hidden;position:relative;}
+.cityList .cityTopSearch{float:left;width:228px;height:25px;line-height:25px;margin-right:38px;padding:0 2px;display:inline;border:1px solid #E6DFDE;color:#5e5e5e;}
+.cityList ul.titleChar{list-style:none;cursor:pointer;}
+.cityList .titleChar .on{border-color:#E6DFDE;background-color:white;}
+.cityList .titleChar li{float:left;border:1px solid #F4F4F4;border-bottom:0;padding:6px 40px;}
+.cityList .cityListBox{margin:8px 0 0 16px;color:#686868;overflow:hidden;display:inline-block;_position:relative;}
+.cityListBox dl{position:relative;overflow:hidden;zoom:1;}
+cityListBox .hotCity dd{width:940px;}
+.cityListBox dl dt{float:left;width:20px;height:auto;display:block;line-height:35px;}
+.cityListBox dl dd{float:left;line-height:35px;_padding-top:2px;text-align:left;width:950px;margin-bottom:6px;}
+.cityListBox dl dd a{color:#686868;font-size:15px;font-family:'微软雅黑';}
+.cityListBox dl dd a:hover{color:#990000;text-decoration:underline;}
+.cityListBox a{width:70px;display:inline-block;}
+.none{display:none;}
+

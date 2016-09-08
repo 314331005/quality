@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"    
+    version="2.0">    
+        
+    <description>MapTld Custom Functions</description>   
+    <display-name>JSTL core</display-name> 
+    <tlib-version>1.0</tlib-version>    
+    <short-name>jashon_map</short-name>    
+    <uri>http://www.jashon.com.cn/jstl/map</uri>
+    
+    <function>    
+      <name>containsKey</name>    
+      <function-class>cn.com.jashon.core.tlds.MapTld</function-class>    
+      <function-signature>java.lang.boolean containsKey(java.util.Map, java.lang.String)</function-signature>  
+      <example>${jashon_map:containsKey(map, "aaa")}</example>  
+    </function>
+    <function>    
+      <name>get</name>    
+      <function-class>cn.com.jashon.core.tlds.MapTld</function-class>    
+      <function-signature>java.lang.Object get(java.util.Map, java.lang.String)</function-signature>  
+      <example>${jashon_map:get(map, "aaa")}</example>  
+    </function> 
+    <function>
+      <name>put</name>    
+      <function-class>cn.com.whye.core.tlds.MapTld</function-class>    
+      <function-signature>put(java.util.Map, java.lang.String, java.lang.Object)</function-signature>  
+      <example>${jashon_map:put(map, "aaa", 1)}</example>  
+    </function>
+    
+</taglib>

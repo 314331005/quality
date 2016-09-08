@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.m_banner1{ background:#fff;height:500px; position:relative;}
+.m_banner1 .banner{height:500px;width:100%; position:absolute;top:0;left:0; background-position:center top;}
+.banner_ctrl1{ }
+.banner_ctrl1 a{ width:30px;height:100px; background:url(../images/banner_ctrl.png) no-repeat; position:absolute; opacity:.1;filter: alpha(opacity=10);
+-moz-opacity:0.1;}
+.banner_ctrl1 a.prev{left:60px;position:absolute;z-index:2;top:40%;}
+.banner_ctrl1 a.next{top:40%;-moz-opacity:0.1;right:60px; background-position:-30px 0;position:absolute;z-index:2;}
+.m_banner1 .banner .main_c{ position:relative;z-index:10;height:388px;}
+
+.moral_con_title{width:1200px; margin:30px auto 0;}
+.TTSlider{width: 1200px;margin: 10px auto}
+.TTSlider li{list-style-type:none;float: left;}
+.TTSlider li img{border: none;}
+.TTSliderTitle{background: #FAFAFA;height:40px;}
+.TTSliderTitle ul{width: 1200px;}
+.TTSliderTitle li{width: 140px;height:40px;position: relative;z-index: 3;left: 0;}
+.TTSliderTitle li div{border-right: 1px solid #C3C5C7;border-top: 1px solid #C3C5C7;left: 0;right: 0;top: 0;bottom: 0;position: absolute;_width:139px;_height:62px}
+.TTSliderTitle .cur div{border: 2px solid #ebebeb;background: #fff;z-index: 3;border-bottom: none;bottom: -2px;_height:63px;_width:136px}
+.bf_lb{margin-bottom:20px;}
+.bf_lb:hover{border:1px solid #f8e6b4;}
+.TTSliderTitle .noneBorRight div{border-right: none;}
+.TTSliderTitle li a{display: block;width: 50%;float: left;height: 100%;line-height: 40px;text-decoration: none;overflow: hidden;*width:49%;font-size: 12px}
+.TTSliderTitle li a img{height: 24px;margin: 6px;width: 38px}
+
+.TTSliderPic{width: 1200px;padding: 13px 33px;border: 2px solid #ebebeb;position: relative;height: 255px;z-index: 1}
+.TTSliderPicList{position: relative;width:1130px;overflow: hidden;height:240px;}
+.TTSliderPic ul{position: absolute;display: none;top:3px;left: 0}
+.TTSliderPic ul.show{display: block;}
+.TTSliderPic li img{width:206px ;height:160px;}
+.TTSliderPic li{width: 226px;padding: 0 10px;height: 250px;}
+.TTSliderPic li a{display: block;overflow: hidden;}
+.TTSliderPic li p{height: 30px;line-height: 30px;text-align: center;color: #ED0A0A}
+.TTSliderPrevBtn,.TTSliderNextBtn{height: 100%;width: 45px;position: absolute;z-index: 999;top: 0;text-align: center;}
+.TTSliderPrevBtn{left:0}
+.TTSliderNextBtn{right: 0;}
+.TTSliderPrevBtn a,.TTSliderNextBtn a{height: 30px;width: 20px;display: inline-block;background: url(../images/btn.png) no-repeat;margin-top: 100px}
+.TTSliderNextBtn a{background: url(../images/btn.png) no-repeat -30px 0}
+
+.rp_ggt{width:1200px; margin:0 auto;}
+
+.yScrollList{width:1198px;height:280px;border:1px solid #dcdcdc;background:#ffffff;margin:25px auto 0;}
+.yScrollListTitle{width:100%;height:38px;line-height:38px;border-bottom:1px solid #dcdcdc; }
+.yScrollListTitle h1{cursor:pointer;font-size:16px;background:#fff;color:#666666;height:37px;border-left:1px solid #dcdcdc;border-right:1px solid #dcdcdc;float:left;position:relative;left:-1px;width:110px;text-align:center;margin:0;}
+.yScrollListTitle h1.ytitleh12{left:-2px;}
+.yScrollListTitle h1.yth1click{height:42px;border-top:2px solid #ce2857;top:-5px;}
+.yScrollListIn{width:100%;height:240px;position:relative;}
+.yScrollListInList{display:none;width:1190px;height:240px;position:absolute;padding:0 30px;left:0;top:0;overflow:hidden;}
+.yScrollListInList .yScrollListbtn{cursor:pointer;position:absolute;width:13px;height:19px;top:96px;background:url(../images/btnys.png) no-repeat 0 0;}
+.yScrollListInList .yScrollListbtnr{background-position:-14px 0;right:5px;}
+.yScrollListInList .yScrollListbtnl{left:5px;}
+.yScrollListInList ul{width:2238px;height:240px;position:absolute;top:0;left:30px;overflow:hidden;}
+.yScrollListInList ul li{width:160px;height:240px;float:left;margin-right:84px;}
+.yScrollListInList ul li img{width:140px;height:140px;display:block;margin-left:10px;margin-top:12px;}
+.yScrollListInList ul li p{font-family:'微软雅黑'; text-align:center;font-size:14px; font-weight:bold;color:#ca093f;line-height:36px;padding:7px 10px 0;width:140px;height:36px;overflow:hidden; }
+.yScrollListInList ul li p:hover{color:#b81140;text-decoration:underline;}
+.yScrollListInList ul li span{color:#b81140;font-size:12px;text-align:center;display:block;line-height:24px;}
+.rpbf_cp_btn{width:60px; display:block;background:#e4d8ae; color:#000; border-radius:6px; text-align:center;margin:0 72px;height:24px; line-height:24px;}
+.rpbf_cp_btn:hover{background-color:#df103c; color:#FFF;}
+.rpbf_btn1{width:80px; display:block;background:#e4d8ae; color:#000; border-radius:6px; text-align:center;margin:0 40px;height:28px; line-height:28px;}
+.rpbf_btn1:hover{ background-color:#df103c; color:#FFF;}

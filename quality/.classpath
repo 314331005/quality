@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_6.0"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.2.2">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/c3p0-0.9.1.1.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/core.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/httpclient-4.3.6.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/httpcore-4.3.3.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/httpcore-nio-4.3.3.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/httpmime-4.3.6.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/jtds-1.2.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/nutz-1.b.52.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/zxing.jar"/>
+	<classpathentry kind="output" path="webapp/WEB-INF/classes"/>
+</classpath>
