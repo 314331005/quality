@@ -44,6 +44,11 @@
 <script type="text/javascript" src="javascript/dwz.min.js"></script>
 <script type="text/javascript" src="javascript/dwz.regional.zh.js"></script>
 <script type="text/javascript" src="javascript/common.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="ueditor/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="ueditor/lang/zh-cn/zh-cn.js"></script>
+
 </head>
 <body scroll="no">
 <c:if test="${empty sessionScope._SYS_USER_}">
